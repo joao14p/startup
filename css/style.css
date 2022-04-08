@@ -1,30 +1,29 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Big Shoulders Display", cursive;
-    height: 100px;
-}
-.vid{
+
+.tela1{
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
     
 }
-.vid video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;
+.video {
+    
+    display: flex;
+    z-index: -1000;
     width: 100%;
+    height: 100%;
+    
 }
-.vid .content {
-    position: relative;
-    z-index: 1;
-    max-width: 1000px;
-    margin: 0 auto;
+.content {
+    flex-direction: column;
     text-align: center;
-    color: white;
+    color: rgb(20, 10, 10);
+}
+.tela2 {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
 }
