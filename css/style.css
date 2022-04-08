@@ -2,23 +2,24 @@
 .tela1{
     width: 100%;
     height: 100%;
-    
+    flex-direction: column;
     display: flex;
     
 }
 .video {
-    top: 0;
-    left: 0;
+    display: flex;
     position: relative;
-    z-index: -1000;
     width: 100%;
-    object-fit: cover;
 }
 .content {
     flex-direction: column;
+    width: 100%;
     text-align: center;
     align-items: center;
-    color: rgb(119, 22, 22);
+    position: fixed;
+    display: block;
+    color: white;
+    
 }
 .tela2 {
     display: flex;
@@ -28,6 +29,8 @@
     justify-content: center;
 }
 .container {
+    display: flex;
+    flex-direction: column;
     
     
 }
